@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h3>Student Information Form</h3>
+        <h3><label for="name">Full Name</label></h3>
+        <input type="text" name="nm" required minlength="5" maxlength="50">
+        <h3><label for="name">Email Address</label></h3>
+        <input type="email" name="em">
+        <h3><label for="no.">Contact No.</label></h3>
+        <input type="text" name="contact" required minlength="3" maxlength="30" >
+        <h3><label for="no.">Name Of The College</label></h3>
+        <input type="text" name="cl" required min="3" max="70" >
+        <h3><label for="r.n">Date Of Birth</label></h3>
+        <input type="Date" name="Date of Birth">
+        <h3><label for="ad.">Student Address</label></h3>
+        <textarea name="addr" cols="30" rows="10"></textarea>
+        <h3><label for="State">Select your State</label></h3>
+     <Select name="State">
+         <option value="MH">Maharashtra</option>
+         <option value="GJ">Gujarat</option>
+         <option value="TM">Tamil Nadu</option>
+         <option value="PJ">Punjab</option>
+         <option value="OD">Odhisa</option>
+         <option value="BR">Bihar</option>
+     </Select>
+     <h3><label for ="courses">Choose Your Desired Courses</label></h3>
+     <input type="checkbox" name="an" checked><label for="an">Angular</label> <br>
+     <input type="checkbox" name="ja" checked ><label for="ja">Java</label> <br>
+     <input type="checkbox" name="py" ><label for="py">Python</label> <br>
+     <input type="checkbox" name="IOT" ><label for="IOT">IOT</label> <br>
+     <br>
+     <input type="checkbox" name="an" checked><br><label for="wp">I want to receive a WhatsApp notification on upocoming programs.</label> <br>
+     <input type="checkbox" name="an" checked><br><label for="tc">I hereby agree to the <b>Terms and conditions</b> and <b>Privacy policy.</b></label> <br>
+
+     <hr>
+     <input type="submit" value="SUBMIT">
+        
+</body>
+</html>
